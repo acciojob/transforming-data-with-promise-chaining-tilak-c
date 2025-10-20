@@ -30,7 +30,7 @@ let numberValue=Number(number.value);
 	let promise5=new Promise((resolve,reject)=>{
 		setTimeout(()=>{
 			numberValue+=10;
-			resolve(`Result: ${numberValue}`);
+			resolve(`Final Result: ${numberValue}`);
 		},7000)
 	});
 	
